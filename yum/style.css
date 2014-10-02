@@ -82,6 +82,9 @@ div{text-align: center;
 	margin-top: 25px;}
 em{font-style: italic;}
 ol{list-style-type: decimal;}
+strong {font-family: Helvetica;
+	font-weight: bold;
+	font-size: 11px;}
 
 
 
