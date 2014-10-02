@@ -66,8 +66,11 @@ h2{font-family: Georgia;
 	text-align: center;}
 ul{display: inline-block;
 	margin: 30px;}
-	div{text-align: center;}
+div{text-align: center;}
 li{text-align: left;}
+#instructions{text-align: center;}
+ol{margin: 30px
+	text-align: left;}
 
 
 	
