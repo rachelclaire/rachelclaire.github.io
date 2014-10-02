@@ -65,7 +65,8 @@ h2{font-family: Georgia;
 	font-size: 12px;
 	text-align: center;}
 ul{display: inline-block;
-	text-align: left;}
+	text-align: left;
+	margin: 15px;}
 ol{text-align: left;
 	margin-top: 25px;
 	margin-right: auto;
@@ -79,6 +80,7 @@ h3{width: 400px;
 	margin-right: auto;}
 div{text-align: center;
 	margin-top: 25px;}
+em{font-style: italic;}
 
 
 
