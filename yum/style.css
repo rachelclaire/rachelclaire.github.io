@@ -65,10 +65,12 @@ h2{font-family: Georgia;
 	font-size: 12px;
 	text-align: center;}
 ul{display: inline-block;
-	margin: 30px;}
+	margin: 30px;
+	text-align: left;}
+ol{display: inline-block;
+	text-align: left;}
 div{text-align: center;}
-ul{text-align: left;}
-ol{text-align: left;}
+
 
 
 	
