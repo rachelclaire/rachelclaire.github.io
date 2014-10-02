@@ -58,11 +58,13 @@ body {font-family: Georgia;
 h1{font-family: Helvetica;
 	font-size: 26px;
 	font-weight: 200;
-	text-align: center;}
+	text-align: center;
+	margin: 60px;}
 h2{font-family: Georgia;
 	font-style: italic;
-	font-size: 12px;}
-	ul{display: inline;}
+	font-size: 12px;
+	text-align: center;}
+ul{display: inline;}
 #first-column{padding: 30px;
 			margin: 25px;}
 #second-colum{padding: 30px;
