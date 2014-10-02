@@ -53,4 +53,9 @@ table {
 
 /* END RESET */
 
+body {font-family: Georgia;
+	font-size: 12px;}
+h1{font-family: Helvetica;
+	font-size:18;
+	font-weight: 200;}
 
