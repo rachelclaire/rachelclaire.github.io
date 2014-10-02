@@ -70,6 +70,7 @@ ul{display: inline-block;
 ol{text-align: left;
 	margin: 40px;
 	width: 400px;}
+	div{text-align: center;}
 #ingredients{text-align: center;}
 h3{width: 400px;
 	text-align: left;}
