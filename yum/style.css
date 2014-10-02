@@ -57,9 +57,14 @@ body {font-family: Georgia;
 	font-size: 12px}
 h1{font-family: Helvetica;
 	font-size: 26px;
-	font-weight: 200}
+	font-weight: 200;
+	text-align: center;}
 h2{font-family: Georgia;
 	font-style: italic;
 	font-size: 12px;}
+#first-column{position: absolute;
+	left: 25px;
+	top: 50px;}
+
 
 	
