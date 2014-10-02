@@ -75,11 +75,10 @@ ol{text-align: left;
 	div{text-align: center;}
 h3{width: 400px;
 	text-align: left;
-	margin-top: 25px;
 	margin-left: auto;
-	marin-bottom: 25px;
 	margin-right: auto;}
-div{text-align: center;}
+div{text-align: center;
+	margin-top: 25px;}
 
 
 
