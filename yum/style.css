@@ -65,7 +65,8 @@ h2{font-family: Georgia;
 	font-size: 12px;
 	text-align: center;}
 ul{display: inline-block;
-	margin: 30px;}
+	margin: 30px;
+	position: center;}
 
 
 	
