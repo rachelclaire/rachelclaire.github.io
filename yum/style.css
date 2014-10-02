@@ -62,11 +62,11 @@ h1{font-family: Helvetica;
 h2{font-family: Georgia;
 	font-style: italic;
 	font-size: 12px;}
+	ul{display: inline;}
 #first-column{padding: 30px;
-	margin: 25px;}
-#second-colum{display: inline;
-	padding: 30px;
-	margin: 25px;}
+			margin: 25px;}
+#second-colum{padding: 30px;
+			margin: 25px;}
 
 
 	
