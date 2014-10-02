@@ -57,7 +57,7 @@ body{font-family: Georgia;
 	font-size: 12px}
 h1{font-family: Helvetica;
 	font-size: 26px;
-	font-weight: 150;
+	font-weight: 100;
 	text-align: center;
 	margin: 60px 0px 0px 0px;}
 h2{font-family: Georgia;
@@ -68,7 +68,6 @@ ul{display: inline-block;
 	margin: 30px;}
 div{text-align: center;}
 ul{text-align: left;}
-#instructions{text-align: center;}
 ol{margin: 30px;
 	text-align: left;}
 
