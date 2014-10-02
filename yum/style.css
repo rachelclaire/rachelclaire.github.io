@@ -68,7 +68,8 @@ ul{display: inline-block;
 	margin: 30px;
 	text-align: left;}
 ol{display: inline-block;
-	text-align: left;}
+	text-align: left;
+	margin: 40px;}
 div{text-align: center;}
 
 
