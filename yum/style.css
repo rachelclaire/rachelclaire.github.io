@@ -64,7 +64,12 @@ h2{font-family: Georgia;
 	font-size: 12px;}
 #first-column{position: absolute;
 	left: 25px;
-	top: 50px;}
+	top: 50px;
+	margin: 25px;}
+#second-colum{position: absolute
+	right: 25px
+	top: 50px;
+	margin: 25px;}
 
 
 	
