@@ -64,12 +64,11 @@ h2{font-family: Georgia;
 	font-style: italic;
 	font-size: 12px;
 	text-align: center;}
-ul{display: inline;
-	margin-left: 50px}
 #first-column{padding: 30px;
 			margin: 25px;}
 #second-column{padding: 30px;
-			margin: 25px;}
+			margin: 25px;
+			display: inline;}
 
 
 	
