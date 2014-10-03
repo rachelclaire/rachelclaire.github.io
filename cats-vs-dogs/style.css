@@ -61,7 +61,10 @@ ul{display: inline;
 li{display: inline;
 	color: black;} 
 a:link{color: black;
-		text-decoration:none;}
+		text-decoration:none;
+		margin: 10px;
+		border-top: 3px;
+		border-bottom: 3px}
 p{width:350px;
 	font-family:Georgia;
 	font-size: 12px
