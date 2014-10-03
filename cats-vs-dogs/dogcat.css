@@ -56,7 +56,9 @@ ul{display: inline;
 	font-family: Georgia;
 	text-transform: uppercase;
 	list-style-type: disc;
-	border-top: 5px
+	border-top: 5px;
 	border-bottom: 5px;}
 li{display: inline;
 	color: black;} 
+	a:link{color: black
+		text-decoration:none;}
