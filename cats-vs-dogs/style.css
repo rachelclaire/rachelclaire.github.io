@@ -64,11 +64,10 @@ a:link{color: black;
 		text-decoration:none;
 		margin: 10px;}
 nav{padding: 5px;
-	border-top: 3px;
-	border-bottom: 3px;}
+	border: 3px 0px 3px 0px;}
 p{width:350px;
 	font-family:Georgia;
-	font-size: 12px
+	font-size: 12px;
 	line-height: 90%}
 h2{font-family: Georgia;
 	font-size: 18px;
