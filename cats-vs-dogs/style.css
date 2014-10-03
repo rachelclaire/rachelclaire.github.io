@@ -60,11 +60,12 @@ ul{display: inline;
 	border-bottom: 5px;}
 li{display: inline;
 	color: black;} 
-a:link{color: black
+a:link{color: black;
 		text-decoration:none;}
 p{width:350px;
 	font-family:Georgia;
-	font}
+	font-size: 12px
+	line-height: 90%}
 h2{font-family: Georgia;
 	font-size: 18px;
 	font-weight: bold}
