@@ -55,6 +55,7 @@ table {
 ul{font-family: Georgia;
 	text-transform: uppercase;
 	list-style-type: disc;
+<<<<<<< HEAD
 	font-weight:bold;
 	font-size: 20px;
 }
@@ -83,3 +84,32 @@ img{width: 100%;
 #logo {width: 50%;
 	display: block;
 	margin:10px auto;}
+=======
+	padding: 5px;
+	margin: 10px;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;}
+nav li{display: inline;
+	color: black;
+	} 
+a:link{color: black;
+		text-decoration:none;
+		margin: 10px;}
+p{
+	font-family:Georgia;
+	font-size: 12px;
+	line-height: 95%}
+h2{font-family: Georgia;
+	font-size: 18px;
+	font-weight: bold;}
+body{margin:0 auto;
+		width: 80%;}
+#logo{display: inline-block;
+	}
+header{text-align: center}
+article {float:left;
+	width:45%;
+margin:2.5%;
+	}
+img{width: 80%;}
+>>>>>>> FETCH_HEAD
