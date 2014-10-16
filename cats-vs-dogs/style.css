@@ -55,30 +55,43 @@ table {
 #logo{
 	width:400px;
 	margin:0 auto;
+	margin-top:20px;
+	display:block;
 	}
+header{
+	display:block;
+	width:95%;
+	margin:auto;
+}
 nav{
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
 	width:100%;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin:0 auto;
-	float: left;
 	}
 ul{
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
 	font-family: Georgia;
 	text-transform: uppercase;
-	list-style-type: none;
+	list-style-type:disc;
 	font-weight:bold;
 	font-size: 20px;
-	width: 95%;
-	margin: 0 auto;
-	}	
+	text-align:center;
+	}
 li{
+<<<<<<< HEAD
 	float: left;
 	text-decoration:none;
+=======
+>>>>>>> FETCH_HEAD
 	padding: 15px;
+	display:inline-block;
+	list-style-type:disc;
 	}
+.bullet{
+	padding:0px;
+	
+}
 #content {
 	clear:both;
 	margin:0 auto;
@@ -91,10 +104,15 @@ div{
 	margin-top: 20px;
 	}
 p{
+	display:block;
+	margin:auto;
 	width: 90%;
+	font-family:Georgia;
+	font-size: 15px;
+	line-height: 120%
 	}
-
 img{
+	display:block;
 	width: 90%;
 	margin: 0 auto;
 	}
@@ -103,20 +121,30 @@ a{
 	text-decoration:none;
 	margin: 10px;
 	}
-p{
-	font-family:Georgia;
-	font-size: 12px;
-	line-height: 96%
-	}
 h2{
 	font-family: Georgia;
-	font-size: 18px;
+	font-size: 28px;
 	font-weight: bold;
+	width:90%;
+	margin:auto;
+	line-height:150%;
 	}
 body{
 	margin:0 auto;
 	width: 80%;
 	}
-
+#footer{
+	clear:both;
+	width:95%;
+	border-top: 4px solid black;
+	margin-top: 500px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#left{float:left;
+	width:50%;}
+#right{float:right;
+	text-align:right;
+	width:50%;}
 
 
