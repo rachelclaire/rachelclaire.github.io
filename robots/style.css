@@ -50,3 +50,29 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+#site-wrapper{
+	background-color:tan;
+	width: 100%;
+	position:relative;
+}
+#menu-wrapper{
+	background-color:sienna;
+	width:100%;
+	position:relative;
+}
+#content-wrapper{
+	background-color:white;
+	width:100%;
+	position:relative;
+}
+#footer-wrapper{
+	background-color:sienna;
+	width:100%;
+	position:relative;
+}
