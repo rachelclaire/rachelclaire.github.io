@@ -89,10 +89,9 @@ table {
 	font-family:Helvetica;
 	padding:7px 20px;
 	float:left;
-	}
+}
 #main-menu #home{
-	padding:7px 20px 7px 0px;
-	
+	padding:7px 20px 7px 0px;	
 }
 
 #main-menu{
@@ -126,8 +125,7 @@ table {
 	font-size: 16px;
 	font-weight:bold;
 	margin-top: 5px;
-	margin-bottom: 5px;
-	
+	margin-bottom: 5px;	
 }
 article{
 	float:left;
