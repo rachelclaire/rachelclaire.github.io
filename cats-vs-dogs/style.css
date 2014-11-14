@@ -67,6 +67,7 @@ table {
 	width:100%;
 }
 #logo{
+	background-color:red;
 	width: 50%;
 	margin: 0 auto;
 	float: clear;
@@ -77,6 +78,7 @@ h1{
 	font-family: 'league_gothicregular';
 	font-size: 5em;
 	margin: 0 auto;
+	text-align: center;
 	
 }
 
