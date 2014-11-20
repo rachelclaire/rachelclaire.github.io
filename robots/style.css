@@ -70,7 +70,7 @@ table {
 #top-nav{
 	float:right;
 }
-#top-nav a{
+#top-nav {
 	text-decoration:none;
 	color: tan;
 	font-family:Helvetica;
