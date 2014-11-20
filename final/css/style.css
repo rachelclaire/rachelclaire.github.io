@@ -59,7 +59,7 @@ table {
 
 
 #headerspan{
-	background-color:lightpink;;
+	background-color:mistyrose;;
 	width:100%;
 	height:100px;
 	border-bottom:solid maroon 2px;
@@ -67,7 +67,7 @@ table {
 
 h1{
 	font-family: 'Raleway', sans-serif;
-	color:white;
+	color:maroon;
 	font-size: 2em;
 	text-transform:uppercase;
 	text-align:center;
@@ -79,6 +79,7 @@ h1{
 	text-align:center;
 	margin: auto;
 	width: 100%;
+	
 }
 
 #lispan{
@@ -89,7 +90,7 @@ h1{
 #work{
 	float:left;
 	font-family: 'Raleway', sans-serif;
-	color:white;
+	color:maroon;
 	text-transform:uppercase;
 	padding: 8px;
 	border: solid maroon 2px;
@@ -99,13 +100,26 @@ h1{
 
 #about{float:right;
 	font-family: 'Raleway', sans-serif;
-	color:white;
+	color:maroon;
 	text-transform:uppercase;
 	padding: 8px;
 	border: solid maroon 2px;
-	float: right;
-	
+	float: right;	
 }
 
-li{margin: 20px;}
+li{margin: 20px;	
+}
 
+#thumbnails{
+	width:70%;
+	background-color:maroon;
+	margin: 0 auto;
+	height: 600px;
+}
+
+img{
+	width: 200px;
+	float: left;
+	margin:5%;
+	
+}
