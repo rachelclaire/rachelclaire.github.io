@@ -156,14 +156,6 @@ h1{
 	height:100%;
 	margin:0 auto;
 }
-@media screen and (max-width:600px) { 
-	#thumbnailspan{width:100%;}
-	#imagesspan{width:100%;}
-	h1{font-size: 1.5em;}
-	#about{font-size:.75em;}
-	#work{font-size:.75em;}
-	#header{width: 100%;}
-}
 
 #clear{width:100%;
 	clear: both;
@@ -191,7 +183,12 @@ h2{
 	color: white;
 	background-color:maroon;
 }
-
+h3{
+	font-family:Georgia;
+	font-size: 1em;
+	padding:10px;
+	line-height: 100%;
+}
 #paragraph{
 	width:50%;
 	margin: 0 auto;
@@ -207,4 +204,14 @@ p{
 	padding: 10px;
 	line-height:120%;
 	
+}
+@media screen and (max-width:600px) { 
+	#thumbnailspan{width:100%;}
+	#imagesspan{width:100%;}
+	h1{font-size: 1.5em;
+	}
+	#about{font-size:.75em;}
+	#work{font-size:.75em;}
+	#header{width: 100%;}
+	#paragraph{width:70%;}
 }
