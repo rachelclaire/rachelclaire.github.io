@@ -67,29 +67,20 @@ table {
 	width:100%;
 }
 #logo{
-	background-color:red;
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
-	float: clear;
+	margin-top:20px;
 	
 }
 
 h1{
 	font-family: 'league_gothicregular';
 	font-size: 5em;
-	margin: 0 auto;
 	text-align: center;
 	
 }
 
-#logo{
-	width:400px;
-	margin:0 auto;
-	margin-top:20px;
-	display:block;
-	}
 header{
-	display:block;
 	width:95%;
 	margin:auto;
 }
