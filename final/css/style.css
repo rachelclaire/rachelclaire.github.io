@@ -73,91 +73,111 @@ table {
 	height:100px;
 	margin: 0 auto;
 	width:70%;
-	background-color:blue;
 }
 #logo{
-	width: 50%;
-	margin: 0 auto;
+	width: 100%;
+	float: left;
 	text-align:center;
 }
-h1{float: left;
+h1{
 	text-align:center;
 	font-weight:600;
-	background-color: orange;
 	font-family: 'Raleway', sans-serif;
 	color:maroon;
 	font-size: 2em;
 	text-transform:uppercase;
 }
-
-
-#work{
+#leftlispan{
+	width:33%;
 	float:left;
+	margin-top: 30px;
+}
+#lispan{
+	width:33%;
+	float:left;
+	margin-top: 20px;
+}
+#rightlispan{
+	width:33%;
+	float:right;
+	margin-top: 30px;
+}
+
+#work{width: 40%;
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
 	color:maroon;
 	text-transform:uppercase;
 	padding: 8px;
 	border: solid maroon 2px;
-	margin:;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1em;
 	
 }
 
-#about{float:right;
+#about{width: 40%;
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
 	color:maroon;
 	text-transform:uppercase;
 	padding: 8px;
 	border: solid maroon 2px;
+	margin: 0 auto;
+	text-align: center;	
+	font-size: 1em;
 }
-
-
-
 #enlarge{
 	float:left;
-	width: 10px;
-	
+	width: 10px;	
 }
 #exit{
 	float:right;
 	width: 10px;
-	
 }
 #thumbnailspan{
 	width:70%;
+	height:100%;
 	background-color:maroon;
 	margin: 0 auto;
-	height: 1600px;
 }
+
+@media screen and (max-width:600px) { 
+	#thumbnailspan{width:100%;}
+	#images{width:100%;}
+	h1{font-size: 1.5em;}
+	#about{font-size:.75em;}
+	#work{font-size:.75em;}
+	#header{width: 100%;}
+}
+
 
 #images{
 	width:70%;
 	background-color:mistyrose;
 	margin: 0 auto;
 	height: 100%;
-	float: clear;
-	position:relative;
-}
-
-#thumbnails{
-	width:99%;
-	margin: 0 auto;
 	
 }
-
+#thumbnails{
+	width:100%;
+	background-color:maroon;
+	height:100%;
+	margin: 0 auto;	
+}
+#clear{width:100%;
+	clear: both;
+	height:10px;
+}
 .thumbnail{
 	width: 200px;
 	float: left;
 	margin:5%;
 }
-
 img{
 	width: 90%;
 	margin: 5%;
-
 }
-
 h2{
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
@@ -168,6 +188,8 @@ h2{
 	float: clear;
 	text-align:center;
 	width: 100%;
+	color: white;
+	background-color:maroon;
 }
 
 #paragraph{
