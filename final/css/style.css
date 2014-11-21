@@ -136,11 +136,12 @@ h1{
 	height: 100%;
 }
 #images{
-	width:100%;	
+	width:100%;
 }
 
 img{width:90%;
-margin: 5%;}
+margin: 5%;
+}
 	
 #thumbnailspan{
 	width:70%;
@@ -183,9 +184,9 @@ h3{
 #paragraph{
 	width:50%;
 	margin: 0 auto;
-	height: 100px;	
+	height: 100%;	
 	background-color: white;
-	float: clear;
+	clear: both;
 }
 a{
 	text-decoration: none;
@@ -197,7 +198,18 @@ p{
 	padding: 10px;
 	line-height:120%;
 }
-#me{width: 400px;}
+#me{width:70%;
+	margin:5% 15%;}
+	
+#footerspan{width:100%;
+	height:30px;
+	background-color:mistyrose;
+	border-top: solid maroon 2px;
+	position: relative;
+	bottom: 0px;
+}	
+
+#copyright{padding:0px}
 
 @media screen and (min-width:600px) { 
 #iPhone{display:none;}
