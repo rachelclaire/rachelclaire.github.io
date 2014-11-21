@@ -195,7 +195,9 @@ h3{
 	height: 100px;	
 	background-color: white;
 	float: clear;
-	
+}
+a{
+	text-decoration: none;
 }
 p{
 	font-family:Georgia;
