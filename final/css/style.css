@@ -148,11 +148,10 @@ margin: 5%;
 	height:100%;
 	background-color:maroon;
 	margin: 0 auto;
+	text-align: center;
 }
 #thumbnails{
-	width:90%;
-	height:100%;
-	margin:0 auto;
+display: inline-block;
 }
 
 #clear{width:100%;
@@ -161,7 +160,7 @@ margin: 5%;
 }
 .thumbnail{
 	width: 200px;
-	float: left;
+	display:inline-block;
 	margin:5%;
 }
 h2{font-family: 'Raleway', sans-serif;
