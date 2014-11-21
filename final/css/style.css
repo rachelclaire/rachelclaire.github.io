@@ -77,30 +77,21 @@ table {
 }
 
 h1{
+	text-align:center;
+	margin: 0 auto;
+	font-weight:600;
+	height:100px;
+	padding-bottom:200px;
+	background-color: orange;
 	font-family: 'Raleway', sans-serif;
 	color:maroon;
 	font-size: 2em;
 	text-transform:uppercase;
 	text-align:center;
 	padding:8px;
-	float:left;
-}
-
-#logo{
-	text-align:center;
-	margin: 0 auto;
-	font-weight:600;
-	width:100%;
-	height:100px;
-	padding-bottom:200px;
-	background-color: orange;
 	
 }
 
-#lispan{
-	width:33%;
-	float: left;
-}
 
 #work{
 	float:left;
@@ -124,8 +115,7 @@ h1{
 	float: right;	
 }
 
-li{margin: 20px;	
-}
+
 
 #enlarge{
 	float:left;
@@ -175,8 +165,9 @@ h2{background-color:grey;
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
 	color:maroon;
-	text-transform:uppercase;
-	padding: 20px;
+	text-transform: uppercase;
+	padding-top:20px;
+	padding-bottom:20px;
 	float: clear;
 	text-align:center;
 	width: 100%;
