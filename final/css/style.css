@@ -55,19 +55,25 @@ table {
 
 
 #wrapper{
-	background-color:mistyrose;;
+	background-color:mistyrose;
 	width:100%;
-	height:100px;
+	height:100%;
 	border-bottom:solid maroon 2px;
 	
 }
 
 
 #headerspan{
-	background-color:mistyrose;;
+	background-color:mistyrose;
 	width:100%;
-	height:100px;
+	height:100%;
 	border-bottom:solid maroon 2px;
+}
+#header{
+	height:100px;
+	margin: 0 auto;
+	width:70%;
+	background-color:blue;
 }
 
 h1{
@@ -82,9 +88,12 @@ h1{
 
 #logo{
 	text-align:center;
-	margin: auto;
-	width: 100%;
+	margin: 0 auto;
 	font-weight:600;
+	width:100%;
+	height:100px;
+	padding-bottom:200px;
+	background-color: orange;
 	
 }
 
@@ -118,11 +127,30 @@ h1{
 li{margin: 20px;	
 }
 
+#enlarge{
+	float:left;
+	width: 10px;
+	
+}
+#exit{
+	float:right;
+	width: 10px;
+	
+}
 #thumbnailspan{
 	width:70%;
 	background-color:maroon;
 	margin: 0 auto;
 	height: 1600px;
+}
+
+#images{
+	width:70%;
+	background-color:mistyrose;
+	margin: 0 auto;
+	height: 100%;
+	float: clear;
+	position:relative;
 }
 
 #thumbnails{
@@ -131,9 +159,42 @@ li{margin: 20px;
 	
 }
 
-img{
+.thumbnail{
 	width: 200px;
 	float: left;
 	margin:5%;
+}
+
+img{
+	width: 90%;
+	margin: 5%;
+
+}
+
+h2{background-color:grey;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	color:maroon;
+	text-transform:uppercase;
+	padding: 20px;
+	float: clear;
+	text-align:center;
+	width: 100%;
+}
+
+#paragraph{
+	width:50%;
+	margin: 0 auto;
+	height: 100px;	
+	background-color: white;
+	float: clear;
+	
+}
+p{
+	font-family:Georgia;
+	font-size: .9em;
+	width:100%;
+	padding: 10px;
+	line-height:120%;
 	
 }
