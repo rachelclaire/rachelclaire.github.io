@@ -53,15 +53,84 @@ table {
 /* -----------------END RESET---------------- */
 
 
-
-	
-
+body {
+    overflow-x: hidden
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+	visibility:hidden;
+	z-index: -4;
+}
 
 #headerspan{
 	background-color:black;
 	width:100%;
-	height:100%;
+	height:130px;
+	/*--copied material--*/
+    position: fixed;
+    z-index: 20;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+	
 }
+
+nav.push-menu-top {
+    top: -120px;
+}
+body.pmt-open nav.push-menu-top {
+    top: 0
+}
+body.pmt-open #wrapper {
+    top: 100px
+}
+
+
+
+#headerspan{
+    top: -100px
+}
+body.pmt-open #headerspan {
+    top: 0
+}
+body.pmt-open #wrapper {
+    top: 100px
+}
+
+/*--end copied material--*/
+
+
+#wrapper{
+	
+	/*--copied material--*/
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+	/*--end copied material--*/
+}
+button.close-menu {
+    background-color: #3184a1;
+    color: #fff;
+	position:fixed;
+	top:300px;
+	z-index:30;
+}
+
 #header{
 	height:100px;
 	margin: 0 auto;
@@ -73,6 +142,8 @@ table {
 	float: left;
 	text-align:center;
 }
+
+
 h1{
 	text-align:center;
 	font-weight:300;
