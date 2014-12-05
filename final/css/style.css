@@ -143,8 +143,9 @@ margin: 5%;
 	
 }
 
-img{width:90%;
-margin: 5%;
+img{width:100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 	
 #thumbnailspan{
@@ -174,20 +175,31 @@ h2{font-family: 'Raleway', sans-serif;
 	font-weight:600;
 	text-transform: uppercase;
 	padding-top:33px;
+	padding-bottom:5px;
 	float: clear;
 	text-align:center;
 	width: 100%;
 	color: black;
 	background-color:white;
+	font-size:1.2em;
+}
+#rule{width:60%;
+	background-color:black;
+	height: 2px;
+	margin:7px auto;
 }
 h3{
 	font-family:Georgia;
-	font-size: 1em;
-	padding:5px;
+	font-size: .9em;
+	padding:3px;
 	line-height: 100%;
+	text-transform: uppercase;
+	font-weight:bold;
+	text-align: center;
+	letter-spacing: 2px;
 }
 #paragraph{
-	width:50%;
+	width:70%;
 	margin: 0 auto;
 	height: 100%;	
 	background-color: white;
@@ -198,7 +210,7 @@ a{
 }
 p{
 	font-family:Georgia;
-	font-size: .9em;
+	font-size: .85em;
 	width:100%;
 	padding: 10px;
 	line-height:120%;
