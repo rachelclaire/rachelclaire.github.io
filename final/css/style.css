@@ -83,14 +83,7 @@ body {
     transition: all 0.3s;
 }
 
-#whitebar{
-	width: 100%;
-	height: 50px;
-	background-color: white;
-	z-index:300;
-	position:fixed;
-	top: 120px;
-}
+
 
 nav.push-menu-top {
     top: -100px;
