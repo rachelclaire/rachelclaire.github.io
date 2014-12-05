@@ -71,18 +71,25 @@ body {
 #headerspan{
 	background-color:black;
 	width:100%;
-	height:130px;
+	height:150px;
 	/*--copied material--*/
     position: fixed;
-    z-index: 20;
+    z-index: 500;
     overflow: hidden;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}
 
-	
+#whitebar{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	z-index:300;
+	position:fixed;
+	top: 120px;
 }
 
 nav.push-menu-top {
@@ -92,7 +99,7 @@ body.pmt-open nav.push-menu-top {
     top: 0
 }
 body.pmt-open #wrapper {
-    top: 100px
+    top: 190px
 }
 
 
@@ -124,26 +131,18 @@ body.pmt-open #wrapper {
     transition: all 0.3s;
 	/*--end copied material--*/
 }
-button.close-menu {
+button{width:10%;}
+.arrow {
     border:none;
 	color:none;
 	position:fixed;
-	top:70px;
-	left:100px;
+	top:30px;
 	margin: 0 auto;
-	z-index:50;
+	z-index:500;
+	width: 10%;
 	
 }
 
-.toggle-push-top {
-		z-index:500;
-		position:fixed;
-		border:none;
-		width: 80px;
-		margin:0 auto;
-		color:none;
-		
-}
 
 #header{
 	height:100px;
@@ -175,6 +174,7 @@ h1{
 	width:33%;
 	float:left;
 	margin-top: 20px;
+	background-color:blue;
 }
 #rightlispan{
 	width:33%;
