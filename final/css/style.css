@@ -81,11 +81,12 @@ body {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+
 	
 }
 
 nav.push-menu-top {
-    top: -120px;
+    top: -100px;
 }
 body.pmt-open nav.push-menu-top {
     top: 0
@@ -97,7 +98,7 @@ body.pmt-open #wrapper {
 
 
 #headerspan{
-    top: -100px
+    top: -110px
 }
 body.pmt-open #headerspan {
     top: 0
@@ -124,11 +125,24 @@ body.pmt-open #wrapper {
 	/*--end copied material--*/
 }
 button.close-menu {
-    background-color: #3184a1;
-    color: #fff;
+    border:none;
+	color:none;
 	position:fixed;
-	top:300px;
-	z-index:30;
+	top:70px;
+	left:100px;
+	margin: 0 auto;
+	z-index:50;
+	
+}
+
+.toggle-push-top {
+		z-index:500;
+		position:fixed;
+		border:none;
+		width: 80px;
+		margin:0 auto;
+		color:none;
+		
 }
 
 #header{

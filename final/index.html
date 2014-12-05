@@ -7,6 +7,7 @@
 	  <script src="classie.js"></script>
 	  <script src="nav.js"></script>
 	  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+	  
   </head>
   <body>
 	  
@@ -17,12 +18,15 @@
 			<div id="leftlispan"><a href="index.html"><li id="work">WORK</li></a></div>
 			<div id="lispan"><li id="logo"><h1>LaDine<br>Design</h1></li></div>
 			<div id="rightlispan"><a href="bio.html"><li id="about">ABOUT</li></a></div>
-			<li><button class="close-menu">&uarr; Close</button></li>
+			
 		</ul>
-   </nav>		
+   </nav>
+   	
 </div>
+<button class="close-menu"><img clas="arrow" src="images/closemenu.png"></button>
+<button class="nav-toggler toggle-push-top"><img clas="arrow" src="images/closemenu.png"></button>	
 </div>
-<button class="nav-toggler toggle-push-top">Push Menu Top</button>
+
 <div id="wrapper">	
 	
 <div id="thumbnailspan">
@@ -180,6 +184,13 @@ var body = document.body,
 		    });
 
 		})( window );
+	</script>
+	<script type="text/javascript">
+	;( function( $ ) {
+
+		$( '.swipebox' ).swipebox();
+
+	} )( jQuery );
 	</script>
 	
   </body>
