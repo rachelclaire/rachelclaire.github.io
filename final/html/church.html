@@ -4,6 +4,8 @@
 	<title>LaDine Design</title>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+	<script src="../jquery-2.1.0.min.js"></script>
+	<script src="../jquery.swipebox.js"></script>
 </head>
 <body>
 	
@@ -33,7 +35,9 @@
   <h3>Acrylic Paint</h3>
   <h3>spring 2011</h3>
   <p>This painting served as a color exercise and was inspired by the mute tones of an early spring landscape.</p></div>
-  <img src="../images/church.jpg"/>
+  
+  <a href="../images/church.jpg"class="swipebox" title="Church in March"><img src= "../images/church.jpg" alt="image"></a>
+ 
  </div>
  </div>
  
@@ -42,5 +46,12 @@
 	<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 </div>
 </div>
-  
+  <script type="text/javascript">
+  ;( function( $ ) {
+
+  	$( '.swipebox' ).swipebox();
+
+  } )( jQuery );
+  </script>
 </body>
+</html>

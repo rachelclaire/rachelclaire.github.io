@@ -4,6 +4,8 @@
 	<title>LaDine Design</title>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+	<script src="../jquery-2.1.0.min.js"></script>
+	<script src="../jquery.swipebox.js"></script>
   </head>
   <body>
 	  <div id="headerspan">
@@ -34,6 +36,9 @@
 		 <p>With this project, I was exploring the inner workings of an old, somewhat neglected piano in Watson auditorium at Wentworth Institute of Technology. This piano has provided me with many hours of stress-relief, especially during my less-than-awesome freshman year of college.</p></div>
 	  <img src="../images/piano1.jpg" alt="piano1"/>
 	  <img src="../images/piano2.jpg" alt="piano2"/>
+	  
+<a href="../images/piano1.jpg" class="swipebox" title="Piano Interior"><img src= "../images/piano1.jpg" alt="image"></a>
+<a href="../images/piano2.jpg" class="swipebox" title="Piano Interior"><img src= "../images/piano2.jpg" alt="image"></a>
 	  </div>
   	</div>
 
@@ -42,5 +47,13 @@
 			<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 		</div>
 		</div>
+		
+ <script type="text/javascript">
+ ;( function( $ ) {
+
+ 	$( '.swipebox' ).swipebox();
+
+ } )( jQuery );
+ </script>			
   </body>
  </html>

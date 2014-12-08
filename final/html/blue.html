@@ -4,7 +4,8 @@
 	  <title>LaDine Design</title>
 	  <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
 	  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
-	  
+	  <script src="../jquery-2.1.0.min.js"></script>
+	  <script src="../jquery.swipebox.js"></script>
   </head>
   <body>
  <div id="headerspan">
@@ -33,11 +34,12 @@
 	<h3>Bookmaking</h2>
 	  <h3>Spring 2014</h3>
 	  <p>This hand-made sketchbook was made as a "survival guide" for Typography students who come after my class, advising them on how to get through the process of making their first book.</p></div>
-  <img src="../images/bluefront.jpg">
-  <img src="../images/blueside.jpg">
-  <img src="../images/bluetext.jpg">
-  <img src="../images/bluetitle.jpg">
+
   
+ <a href="../images/bluefront.jpg" class="swipebox" title="Bookmaking"><img src= "../images/bluefront.jpg" alt="image"></a> 
+ <a href="../images/blueside.jpg" class="swipebox" title="Bookmaking"><img src= "../images/blueside.jpg" alt="image"></a>
+ <a href="../images/bluetext.jpg" class="swipebox" title="Bookmaking"><img src= "../images/bluetext.jpg" alt="image"></a>  
+ <a href="../images/bluetitle.jpg" class="swipebox" title="Bookmaking"><img src= "../images/bluetitle.jpg" alt="image"></a> 
 </div>
 	  
 </div>
@@ -47,4 +49,11 @@
 		<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 	</div>
 	</div>
+ <script type="text/javascript">
+ ;( function( $ ) {
+
+ 	$( '.swipebox' ).swipebox();
+
+ } )( jQuery );
+ </script>		
   </body>

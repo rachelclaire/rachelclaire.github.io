@@ -4,6 +4,8 @@
 	<title>LaDine Design</title>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+	<script src="../jquery-2.1.0.min.js"></script>
+	<script src="../jquery.swipebox.js"></script>
 </head>
 <body>
     <div id="headerspan">
@@ -32,7 +34,9 @@
 	<h3>digital</h3>
 	<h3>Christmas 2013</h3>
 	<p>I made this poster as a gift for my younger brother, a Marine Option midshipman at Boston University.<p></div>
-	  <img src="../images/marinesposter.jpg">
+	
+	  
+<a href="../images/marinesposter.jpg"class="swipebox" title="Marines Poster"><img src= "../images/marinesposter.jpg" alt="image"></a>
     </div>
 	</div>
 	
@@ -41,5 +45,14 @@
 			<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 		</div>
 		</div>
+		
+  <script type="text/javascript">
+  ;( function( $ ) {
+
+  	$( '.swipebox' ).swipebox();
+
+  } )( jQuery );
+  </script>		
+		
 </body>
 </html>

@@ -4,6 +4,8 @@
   <title>LaDine Design</title>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+<script src="../jquery-2.1.0.min.js"></script>
+<script src="../jquery.swipebox.js"></script>
   </head>
   <body>
 	  <div id="headerspan">
@@ -32,9 +34,11 @@
 		  <h3>Digital</h3>
 		  <h3>Fall 2014</h3>
 		  <p>Using found materials, objects, and illustrations, I scanned and collaged these composite illustrations together to create whimsical antique scenes.</p></div>
-		  <img src="../images/postcard1.jpg">
-		  <img src="../images/postcard2.jpg">
-		  <img src="../images/postcard3.jpg">
+		  
+		  
+<a href="../images/postcard1.jpg" class="swipebox" title="Collage Postcard Series"><img src= "../images/postcard1.jpg" alt="image"></a>
+<a href="../images/postcard2.jpg" class="swipebox" title="Collage Postcard Series"><img src= "../images/postcard2.jpg" alt="image"></a>
+<a href="../images/postcard3.jpg" class="swipebox" title="Collage Postcard Series"><img src= "../images/postcard3.jpg" alt="image"></a>
 	    </div>
 		</div>
 		
@@ -43,5 +47,12 @@
 		<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 	</div>
 	</div>
+ <script type="text/javascript">
+ ;( function( $ ) {
+
+ 	$( '.swipebox' ).swipebox();
+
+ } )( jQuery );
+ </script>			
   </body>
   </html>

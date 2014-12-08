@@ -4,6 +4,8 @@
 	<title>LaDine Design</title>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+	<script src="../jquery-2.1.0.min.js"></script>
+	<script src="../jquery.swipebox.js"></script>
 </head>
 <body>
   <div id="headerspan">
@@ -32,9 +34,10 @@
 	    <h3>Digital</h3>
 	    <h3>Fall 2013</h3>
 	    <p>This project was created largely by creating a few vectored shapes, setting up a series of transformations, and then carrying out those transformations on Illustrator and seeing the results. The process could then be changed to adjust the pattern.</p></div>
-  <img src="../images/pattern1.jpg" alt="pattern1"/>
-  <img src="../images/pattern2.jpg" alt="pattern2"/>
-  <img src="../images/pattern3.jpg" alt="pattern3"/>
+  
+<a href="../images/pattern1.jpg"class="swipebox" title="Patterns"><img src= "../images/pattern1.jpg" alt="image"></a>
+<a href="../images/pattern2.jpg"class="swipebox" title="Patterns"><img src= "../images/pattern2.jpg" alt="image"></a>
+<a href="../images/pattern3.jpg" class="swipebox" title="Patterns"><img src= "../images/pattern3.jpg"  alt="image"></a>
   </div>
  </div>
 
@@ -43,5 +46,13 @@
 	<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 </div>
 </div>
+
+ <script type="text/javascript">
+ ;( function( $ ) {
+
+ 	$( '.swipebox' ).swipebox();
+
+ } )( jQuery );
+ </script>	
 </body>
 </html>

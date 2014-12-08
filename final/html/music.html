@@ -4,6 +4,8 @@
   <title>LaDine Design</title>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+<script src="../jquery-2.1.0.min.js"></script>
+<script src="../jquery.swipebox.js"></script>
   </head>
   <body>
 	  
@@ -33,11 +35,13 @@
 	  	  <h3>Digital</h3>
 	  	  <h3>Fall 2014</h3>
 	  	  <p>The goal of this sketchbook was to typographically illustrate the meanings of several different musical terms, using abstract type only (no textual definitions) to communicate a musical sound.</p></div>
-		  <img src="../images/sketchbooks/staccato.jpg">
-		  <img src="../images/sketchbooks/staggerbreathe.jpg">
-		  <img src="../images/sketchbooks/trombone.jpg">
-		  <img src="../images/sketchbooks/tuba.jpg">
-		  <img src="../images/sketchbooks/accordian.jpg">
+		
+ <a href="../images/sketchbooks/staccato.jpg"class="swipebox" title="Music Dictionary Sketchbook"><img src= "../images/sketchbooks/staccato.jpg" alt="image"></a>
+ <a href="../images/sketchbooks/staggerbreathe.jpg"class="swipebox" title="Music Dictionary Sketchbook"><img src= "../images/sketchbooks/staggerbreathe.jpg" alt="image"></a>
+ <a href="../images/sketchbooks/trombone.jpg"class="swipebox" title="Music Dictionary Sketchbook"><img src= "../images/sketchbooks/trombone.jpg" alt="image"></a>
+ <a href="../images/sketchbooks/tuba.jpg"class="swipebox" title="Music Dictionary Sketchbook"><img src= "../images/sketchbooks/tuba.jpg" alt="image"></a>
+ <a href="../images/sketchbooks/accordian.jpg"class="swipebox" title="Music Dictionary Sketchbook"><img src= "../images/sketchbooks/accordian.jpg" alt="image"></a>		  
+		  
 	    </div>
 	</div>
 	
@@ -46,6 +50,14 @@
 		<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 	</div>
 	</div>
+ <script type="text/javascript">
+ ;( function( $ ) {
+
+ 	$( '.swipebox' ).swipebox();
+
+ } )( jQuery );
+ </script>	
+	
   </body>
 </html>
   

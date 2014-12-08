@@ -4,6 +4,8 @@
 	<title>LaDine Design</title>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+	<script src="../jquery-2.1.0.min.js"></script>
+	<script src="../jquery.swipebox.js"></script>
 </head>
 <body>
 	
@@ -33,7 +35,9 @@
   <h3>Digital</h3>
   <h3>spring 2014</h3>
   <p>The theme for this poster was inspired by the topic for Mexico's 2014 biennial poster contest. As someone who has worked on a farm for several summers, I immediately went to tomatoes to capture the inherent beauty and quality of food.</p></div>
-  <img src="../images/mexico.jpg"/>
+
+  <a href="../images/mexico.jpg"class="swipebox" title="Food Waste Poster"><img src= "../images/mexico.jpg" alt="image"></a>
+  
  </div>
  </div>
  
@@ -42,5 +46,13 @@
 	<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 </div>
 </div>
+ 
+ <script type="text/javascript">
+ ;( function( $ ) {
+
+ 	$( '.swipebox' ).swipebox();
+
+ } )( jQuery );
+ </script>
   
 </body>
