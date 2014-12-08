@@ -202,4 +202,9 @@ html.swipebox-html.swipebox-touch{overflow:hidden!important}
 	
 	
 	
-img{width: 70%;}
+img{
+	width: 50%;
+	}
+.swipebox{
+	width: 100%;
+	}

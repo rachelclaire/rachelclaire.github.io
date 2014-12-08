@@ -4,7 +4,9 @@
 	  <title>LaDine Design</title>
 	  <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
 	  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
-	  
+	<link rel="stylesheet" href="swipebox.min.css" type="text/css" media="screen" />
+	<script src="../jquery-2.1.0.min.js"></script>
+	<script src="../jquery.swipebox.js"></script>
   </head>
   <body>
  <div id="headerspan">
@@ -35,10 +37,13 @@
 	  <h3>Digital &amp; Bookmaking</h3>
 	  <h3>Spring 2014</h3>
 	  <p>Given the text from Gui Bonsiepe's "Some Virtues of Design" and Michael Rock's "The Designer As Author" I laid out and designed a hard-cover book complete with a book jacket, table of contents, and quotations from relevant outside sources.</p></div>
-  <img src="../images/book/slant.jpg">
-  <img src="../images/book/title.jpg">
-  <img src="../images/book/TOC.jpg">
-  <img src="../images/book/citation.JPG">
+  
+  
+<a href="../images/book/slant.jpg" class="swipebox" title="Book Design"><img src= "../images/book/slant.jpg" alt="image"></a>
+<a href="../images/book/title.jpg" class="swipebox" title="Book Design"><img src= "../images/book/title.jpg" alt="image"></a>
+<a href="../images/book/TOC.jpg" class="swipebox" title="Book Design"><img src= "../images/book/TOC.jpg" alt="image"></a>
+<a href="../images/book/citation.JPG" class="swipebox" title="Book Design"><img src= "../images/book/citation.JPG" alt="image"></a>
+  
 </div>
 </div>
 	  
@@ -47,4 +52,16 @@
 		<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
 	</div>
 	</div>
-  </body>
+	
+<script type="text/javascript">
+;( function( $ ) {
+
+	$( '.swipebox' ).swipebox();
+
+} )( jQuery );
+</script>
+	
+	
+	
+</body>
+</html>
