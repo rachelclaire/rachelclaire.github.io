@@ -141,16 +141,6 @@ body.pmt-open #wrapper {
 	/*--end copied material--*/
 }
 button{width:10%;}
-.arrow {
-    border:none;
-	color:none;
-	position:fixed;
-	top:30px;
-	margin: 0 auto;
-	z-index:500;
-	width: 10%;
-	
-}
 
 
 #header{
