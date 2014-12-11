@@ -131,11 +131,13 @@ h1{
 }
 #enlarge{
 	float:left;
+	margin: 0 auto;
 	width: 20px;
 	padding: 10px;
 	border: solid white 2px;	
 }
 #exit{
+	margin: 0 auto;
 	float:right;
 	width: 20px;
 	padding: 10px;
@@ -263,7 +265,7 @@ em{font-weight:bold;}
 @media screen and (min-width:600px) { 
 #iPhone{display:none;}
 }
-#leftlispan{background-color:red;}
+
 
 
 @media screen and (max-width:600px) { 
@@ -276,8 +278,10 @@ em{font-weight:bold;}
 	#header{width: 100%;}
 	#paragraph{width:70%;}
 	#computer{display:none}
-	#leftlispan{background-color:red;
-	margin-top: 30px;}
+	#leftlispan{
+	margin-top: 8px;}
+	#rightlispan{
+	margin-top: 8px;}
 	#exit{margin:0 auto;}
 }
 
