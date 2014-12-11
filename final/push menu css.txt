@@ -53,8 +53,20 @@ table {
 /* -----------------END RESET---------------- */
 
 
-
-
+body {
+    overflow-x: hidden
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+	visibility:hidden;
+	z-index: -4;
+}
 
 #headerspan{
 	background-color:black;
@@ -62,8 +74,60 @@ table {
 	height:150px;
 	/*--copied material--*/
     position: fixed;
+    z-index: 500;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
+  .close-menu {
+  	position:absolute;
+  	top:59px;
+  	left:0px;
+  	margin:auto;
+  	right:0px;
+  }
+
+  .toggle-push-top {
+  	position:absolute;
+  	top:140px;
+  	left:0px;
+  	margin:auto;
+  	right:0px;
+  }
+  
+  button {border:none; outline:none; background:none;}
+
+
+nav.push-menu-top {
+    top: -100px;
+}
+body.pmt-open nav.push-menu-top {
+    top: 0
+}
+body.pmt-open #wrapper {
+    top: 190px
+}
+
+
+
+#headerspan{
+    top: -110px
+}
+body.pmt-open #headerspan {
+    top: 0
+}
+body.pmt-open #wrapper {
+    top: 100px
+}
+
+/*--end copied material--*/
+
+
+
+button{width:10%;}
 
 
 #header{
