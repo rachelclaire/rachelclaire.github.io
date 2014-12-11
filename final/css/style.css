@@ -59,17 +59,18 @@ table {
 #headerspan{
 	background-color:black;
 	width:100%;
-	height:150px;
-	/*--copied material--*/
+	height:100px;
+	opacity: .8;
     position: fixed;
 }
 
 
 
 #header{
-	height:100px;
+	height:60px;
 	margin: 0 auto;
 	width:70%;
+	
 }
 
 #logo{
@@ -84,8 +85,9 @@ h1{
 	font-weight:300;
 	font-family: 'Raleway', sans-serif;
 	color:white;
-	font-size: 2em;
+	font-size: 1.8em;
 	text-transform:uppercase;
+	letter-spacing: 3px;
 }
 #leftlispan{
 	width:33%;
@@ -96,7 +98,7 @@ h1{
 	width:33%;
 	float:left;
 	margin-top: 20px;
-	background-color:blue;
+	
 }
 #rightlispan{
 	width:33%;
@@ -153,8 +155,12 @@ margin: 5%;
 img{width:100%;
 	margin-top: 10px;
 }
-	
+#margin{
+	height: 110px;
+	width: 10px;
+}
 #thumbnailspan{
+	margin-top: 110px;
 	width:80%;
 	height:100%;
 	background-color:white;
@@ -204,6 +210,11 @@ h3{
 	text-align: center;
 	letter-spacing: 2px;
 }
+
+#bio{
+	width: 50%;
+	margin: 0 auto;
+}
 #paragraph{
 	width:70%;
 	margin: 0 auto;
@@ -226,23 +237,7 @@ em{font-weight:bold;}
 	margin:5% 15%;}
 	
 	
-#backgroundspan{
-	width:100%;
-	
-	height:400px;
-	position:fixed;
-	z-index: -3;
-	
-}	
-#background{
-	width: 100%;
-	background-color:blue;
-	position:fixed;
-	top: 0px;
-	z-index: -2;
-	margin: 0 auto;
-	visibility: hidden;
-	}
+
 	
 #footerspan{
 	width:100%;
@@ -268,6 +263,7 @@ em{font-weight:bold;}
 @media screen and (min-width:600px) { 
 #iPhone{display:none;}
 }
+#leftlispan{background-color:red;}
 
 
 @media screen and (max-width:600px) { 
@@ -280,6 +276,9 @@ em{font-weight:bold;}
 	#header{width: 100%;}
 	#paragraph{width:70%;}
 	#computer{display:none}
+	#leftlispan{background-color:red;
+	margin-top: 30px;}
+	#exit{margin:0 auto;}
 }
 
 

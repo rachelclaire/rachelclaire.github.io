@@ -1,0 +1,76 @@
+
+	  
+	  
+	  <!DOCTYPE html>
+	  <html>
+	    <head>
+	  <script src="classie.js"></script>
+	 	  <script src="nav.js"></script>
+	 	  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+	  	  <title>LaDine Design</title>
+	  	  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	  	  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
+	 
+	    </head>
+	    <body>
+	  
+	  <div id="headerspan">
+	  <div id="header">
+	  	<nav id="push-menu-top">
+	  	  	<ul>
+	  			<div id="leftlispan"><a href="index.html"><li id="work">WORK</li></a></div>
+	  			<div id="lispan"><li id="logo"><h1>LaDine<br>Design</h1>
+	  				<button class="close-menu"><img class="arrow" src="images/up.png"></button>
+	  				<button class="nav-toggler toggle-push-top"><img class="arrow" src="images/down.png"></button>
+	  			</li></div>
+	  			<div id="rightlispan"><a href="bio.html"><li id="about">ABOUT</li></a></div>
+			
+	  		</ul>
+	     </nav>	
+	  </div>
+
+	  </div>
+	  <div id="wrapper">	
+	
+	  <div id="thumbnailspan">
+	  <div id="thumbnails">
+	  <a href= "html/book.html"> <img class="thumbnail" src="images/thumbnails/book.jpg"/></a>
+	  <a href= "html/church.html"> <img class="thumbnail" src="images/thumbnails/church.jpg"/></a>
+	  <a href= "html/recipes.html"> <img class="thumbnail" src="images/thumbnails/recipe.jpg"/></a>
+	  <a href= "html/magazine.html"> <img class="thumbnail" src="images/thumbnails/magazine.jpg"/></a>
+	  <a href= "html/marineposter.html"> <img class="thumbnail" src="images/thumbnails/marineposter.jpg"/></a>
+	  <a href= "html/patterns.html"> <img class="thumbnail" src="images/thumbnails/patterns.jpg"/></a>
+	  <a href= "html/semperfi.html"> <img class="thumbnail" src="images/thumbnails/semperfi.jpg"/></a>
+	  <a href= "html/mexico.html"> <img class="thumbnail" src="images/thumbnails/mexico.jpg"/></a>
+	  <a href= "html/piano.html"> <img  class="thumbnail"src="images/thumbnails/piano.jpg"/></a>
+	  <a href= "html/postcard.html"> <img class="thumbnail" src="images/thumbnails/postcard.jpg"/></a>
+	  <a href= "html/music.html"> <img class="thumbnail" src="images/thumbnails/music.jpg"/></a>
+	  <a href= "html/blue.html"> <img class="thumbnail" src="images/thumbnails/blue.jpg"/></a>
+	  <div id="clear"></div>
+	  </div>
+	  </div>
+
+	  <div id="footerspan">
+	  	<p id="copyright">copyright Rachel LaDine 2014. all rights reserved.<p>
+	  </div>
+	  </div>
+
+	  	<script type="text/javascript">
+	  	;( function( $ ) {
+
+	  		$('.toggle-push-top').click(function() {
+	             $("body").addClass("pmt-open");
+	  		});
+
+	  		$(".close-menu").click(function() {
+	             $("body").removeClass("pmt-open");
+	  		});
+
+	  		$( '.swipebox' ).swipebox();
+
+	  	} )( jQuery );
+	  	</script>
+	
+	    </body>
+	  </html>
+	  
