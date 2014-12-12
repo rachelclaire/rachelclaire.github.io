@@ -269,8 +269,9 @@ h3{
 	background-color: white;
 	clear: both;
 }
-a{
+a {
 	text-decoration: none;
+	color:rgb(128,128,128);
 }
 
 
@@ -281,7 +282,7 @@ a{
 	line-height:120%;
 }
 
-a{color:rgb(128,128,128);}
+
 a:visited{color:rgb(128,128,128);}
 a:hover{color:rgb(143,188,143);}
 em{font-weight:bold;}
