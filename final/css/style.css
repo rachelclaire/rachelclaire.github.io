@@ -70,6 +70,7 @@ table {
 	height:60px;
 	margin: 0 auto;
 	width:70%;
+	margin-top: 24px;
 	
 }
 
@@ -92,19 +93,35 @@ h1{
 #leftlispan{
 	width:33%;
 	float:left;
-	margin-top: 30px;
+	
+	height: 100%;
 }
 #lispan{
 	width:33%;
 	float:left;
-	margin-top: 20px;
+	
+	
 	
 }
 #rightlispan{
 	width:33%;
 	float:right;
-	margin-top: 30px;
+	
+	height: 100%;
+
+
 }
+
+#lefticon{width:33%;
+	float:left;
+	margin-top: 10px;
+	height: 100%;}
+#righticon{width:33%;
+	float:right;
+	margin-top: 10px;
+	height: 100%;
+}
+
 
 #work{width: 40%;
 	font-family: 'Raleway', sans-serif;
@@ -129,16 +146,16 @@ h1{
 	font-size: 1em;
 	float:right;
 }
-#enlarge{
-	float:left;
+#abouticon{
+	float:right;
 	margin: 0 auto;
-	width: 20px;
-	padding: 10px;
+	width: 28px;
+	padding: 6px;
 	border: solid white 2px;	
 }
 #exit{
 	margin: 0 auto;
-	float:right;
+	float:left;
 	width: 20px;
 	padding: 10px;
 	border: solid white 2px;
@@ -257,7 +274,6 @@ em{font-weight:bold;}
 	color: white;
 	width:70%;
 	margin: 0 auto;
-
 }
 	
 
@@ -275,15 +291,13 @@ em{font-weight:bold;}
 	}
 	#about{font-size:.75em;}
 	#work{font-size:.75em;}
-	#header{width: 100%;}
+	#header{width: 70%;}
 	#paragraph{width:70%;}
 	#computer{display:none}
-	#leftlispan{
-	margin-top: 8px;}
-	#rightlispan{
-	margin-top: 8px;}
-	#exit{margin:0 auto;}
-}
+	#lispan{margin-top:8px;}
+	}
+	#rightlispan{margin-top:10px;}
+	#leftlispan{margin-top:10px;}
 
 
 
