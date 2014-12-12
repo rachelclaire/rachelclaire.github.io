@@ -251,6 +251,7 @@ p{
 	padding: 10px;
 	line-height:120%;
 }
+a{color:gray;}
 em{font-weight:bold;}
 #me{width:70%;
 	margin:5% 15%;}
