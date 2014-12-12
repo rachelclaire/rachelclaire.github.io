@@ -305,19 +305,25 @@ em{font-weight:bold;}
 	h1{font-size: 1.5em;
 	}
 	#about{font-size:.75em;
-		margin-right: 15px;}
+		}
 	#work{font-size:.75em;
-		margin-left: 15px;}
-	#header{width: 100%;}
+		}
+	
 	#paragraph{width:70%;}
 	#computer{display:none}
 	#lispan{margin-top:8px;}
+	#bio{width: 80%;}
 	}
+	
+
+@media screen and (max-width:320px) { 
+	#header{width: 100%;}
+	#work{margin-left: 15px;}
+	#about{margin-right: 15px;}
+}
+
 	#rightlispan{margin-top:10px;}
 	#leftlispan{margin-top:10px;}
-	#bio{width: 80%;}
-
-
 
 
 
