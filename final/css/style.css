@@ -281,8 +281,8 @@ a{
 	line-height:120%;
 }
 
-a{color:gray;}
-a:visited{color:grey;}
+a{color:rgb(128,128,128);}
+a:visited{color:rgb(128,128,128);}
 a:hover{color:rgb(143,188,143);}
 em{font-weight:bold;}
 
