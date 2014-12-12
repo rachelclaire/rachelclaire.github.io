@@ -248,8 +248,8 @@ h2{font-family: 'Raleway', sans-serif;
 	margin:7px auto;
 }
 h3{
-	font-family:Georgia;
-	font-size: .9em;
+	font-family: 'Radley';
+	font-size: .95em;
 	padding:3px;
 	line-height: 100%;
 	text-transform: uppercase;
@@ -275,7 +275,7 @@ a {
 }
 
 
-p{font-family:Georgia;
+p{font-family: 'Radley', serif;
 	font-size: .85em;
 	width:100%;
 	padding:10px 0;
@@ -349,6 +349,7 @@ em{font-weight:bold;}
 	#work{margin-left: 15px;}
 	#about{margin-right: 15px;}
 	a{color:rgb(143,188,143);}
+	#copyright{width:90%;}
 }
 
 	#rightlispan{margin-top:10px;}
