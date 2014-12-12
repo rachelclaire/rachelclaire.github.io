@@ -254,7 +254,10 @@ a:hover{color:maroon;}
 	padding: 10px;
 	line-height:120%;
 }
+
 a{color:gray;}
+a:visited{color:gray;}
+a:hover{color:maroon;}
 em{font-weight:bold;}
 #me{width:70%;
 	margin:5% 15%;}
@@ -312,6 +315,7 @@ em{font-weight:bold;}
 	}
 	#rightlispan{margin-top:10px;}
 	#leftlispan{margin-top:10px;}
+	#bio{width: 80%;}
 
 
 
