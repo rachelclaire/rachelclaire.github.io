@@ -78,6 +78,7 @@ table {
 	width: 100%;
 	float: left;
 	text-align:center;
+	display: inline;
 }
 
 
@@ -106,7 +107,6 @@ h1{
 #rightlispan{
 	width:33.333%;
 	float:right;
-	
 	height: 100%;
 
 
