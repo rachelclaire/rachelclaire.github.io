@@ -301,8 +301,8 @@ em{font-weight:bold;}
 	#imagesspan{width:100%;}
 	h1{font-size: 1.5em;
 	}
-	#about{font-size:.75em;}
-	#work{font-size:.75em;}
+	#about{font-size:.75em;margin-right: 4px;}
+	#work{font-size:.75em;margin-left: 4px;}
 	#header{width: 100%;}
 	#paragraph{width:70%;}
 	#computer{display:none}
