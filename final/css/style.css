@@ -275,11 +275,11 @@ a {
 }
 
 
-	font-family:Georgia;
+p{font-family:Georgia;
 	font-size: .85em;
 	width:100%;
-	padding: 10px;
-	line-height:120%;
+	padding:10px 0;
+	line-height:1.3em;
 }
 
 
