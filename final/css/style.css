@@ -91,20 +91,20 @@ h1{
 	letter-spacing: 3px;
 }
 #leftlispan{
-	width:33%;
+	width:33.333%;
 	float:left;
 	
 	height: 100%;
 }
 #lispan{
-	width:33%;
+	width:33.333%;
 	float:left;
 	
 	
 	
 }
 #rightlispan{
-	width:33%;
+	width:33.333%;
 	float:right;
 	
 	height: 100%;
